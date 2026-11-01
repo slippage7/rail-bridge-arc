@@ -98,6 +98,14 @@ Then open the `localhost` link that is printed.
 - `src/chains.json`: chain data (IDs, RPCs, explorers, gas tokens, USDC addresses).
 - `src/style.css`: design system, themes and animations.
 - `scripts/`: chain check, fee proof and UI test scripts.
+  
+## Deployed contracts
+
+| Name | Network | Address |
+|------|---------|---------|
+| RailReceipts | Arc Testnet | [0xB422ed516769F5bAeed3715b3BcdcCA1227148C3](https://testnet.arcscan.app/address/0xB422ed516769F5bAeed3715b3BcdcCA1227148C3) |
+
+RailReceipts records bridge receipts on-chain (source chain, destination chain, amount, burn tx hash) and emits a `BridgeRecorded` event. Verified on Arcscan. Compiled with Solidity 0.8.34, optimization disabled, EVM version osaka.
 
 ## Disclaimer
 
